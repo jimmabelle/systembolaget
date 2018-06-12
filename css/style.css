@@ -1,0 +1,309 @@
+ * {
+margin: 0;
+}
+
+html, body {height: 100%; min-width: 1200px;}
+.wrapper {min-height: 100%; height: 100% !important;}
+
+
+
+/* Top Bar Lay out */
+.topbar-align {text-align:center; width:100%; height:60px; margin:0 auto; background:#a86767;}
+.topbar {position:relative; width:1000px; height:40px; margin: 0 auto;}
+.barsicon {position: absolute; height:30px; font-size:24px; left:10px; top:18px;  }
+.fa-bars {position:absolute; color:#fff;}
+.totalItems {position:absolute; left:8px; top:-12px; border:1px solid #80b416; border-radius:25px; background:#80b416; color:#fff; font-family:lato, sans-serif; font-size:18px; font-weight:bold; line-height:8px; padding:9px;}
+.alladrycker {position:absolute; color:#fff; left:40px; font-family:lato, sans-serif; font-weight:bold; font-size:20px; letter-spacing:1px;}
+.usericon {position:absolute; color:#fff; font-size:24px; right:15px; top:18px;}
+.fa-user {position:absolute; color:#fff;}
+
+
+
+/* Logo & Links */
+.container {text-align:center; width:1000px; height:100px; margin:0 auto;}
+.bolagetslogo {position:relative;}
+.bolagetslogo img {position:absolute; left:5px; top:10px; width:145px; height:90px;}
+.container-list {width:840px; height:50px; position:relative; top:20px; left:160px;}
+.container-list ul {position:absolute; left:0; bottom:0; right:0; list-style-type: none;}
+.container-list ul li {display:inline-block; font-size:20px; font-family: lato, sans-serif; padding: 0 0 0 24px; letter-spacing:1px;}
+.container-list ul li h5 a {color:#333333; text-decoration:none;}
+a.dryck:hover, a.dryck:active, a.link:focus {border-bottom:solid;} 
+a.fakta:hover, a.fakta:active {border-bottom:solid;} 
+a.passa:hover, a.passa:active {border-bottom:solid;} 
+a.alkohol:hover, a.alkohol:active {border-bottom:solid;} 
+a.uppdrag:hover, a.uppdrag:active {border-bottom:solid;} 
+a.tider:hover, a.tider:active {border-bottom:solid;}
+
+
+
+/* hr */
+.dotted {width:1000px; height:0.5em; margin:20px auto;}
+.efter-dotted {border-bottom:3px dotted #c1c1a4; border-style:none none dotted; color:#fff; background-color:#fff; margin-top:0.2em}
+/*.dotted {border: 5px dotted #c1c1a4; border-style: none none dotted; color: #fff; background-color: #fff; margin: 20px 160px 20px 160px;}*/
+
+
+
+/* Search Layout */
+.search-dryck {text-align:center; margin-left:75px; margin-right:75px; padding:20px 10px 10px 10px; height:200px;}
+.search-dryck h1 {padding:10px; font-size:40px; font-family:lato, sans-serif; color:#333333;}
+.search-div {margin:50px auto;}
+#search-div {width:600px; position:relative; margin:5px auto;}
+#search-inpt {height:60px; width:600px; font-family:lato, sans-serif; border-radius:50px; border:0; background:#f4f3ef; color:#72706d; box-shadow:#d6d5d2 1px; padding:5px 5px 5px 15px; font-size:18px;}
+#search {width:50px; height:50px; border-radius:50px; border:1px solid #80b416; position:absolute; right:0; margin-right:8px; margin-top:-55px; background:#80b416; box-shadow:1px 0px 0px 0px #80b416; color:#fff;}
+button:focus {outline:none;}
+input:focus{outline:none;}
+
+
+
+/* Wallpaper */
+#wallpaper {width:1000px; height:300px; margin: 50px auto; position:relative; clear: left;}
+#img {width:1000px; height:300px; position:absolute;}
+#leftHolder {width:100px; height:350px; position:absolute; left:0; top:0;}
+#rightHolder {width:100px; height:350px; position:absolute; right:0; top:0; }
+.left {width:30%; position: absolute; top:40%; left:8px;}
+.right {width:30%; position: absolute; top:40%; right:8px;}	
+
+
+
+/* Section */
+.section {text-align:center; width:1000px; height:400px; margin:0 auto;}
+.leftimg {float:left; margin-top:15px; margin-left:120px;}
+.rightimg {float:right; margin-top:15px; margin-right:120px;}
+
+.pratomtonaring {float:left; margin-left:120px; width:380px; height:150px;}
+.leftHeading {float:left; margin-top:10px; font-size:20px; font-family:lato, sans-serif; color:#333333;}
+#arrowLeft {padding-right:8px; color:#80b416;}
+.leftPara {float:left; width:370px; margin-left:0; margin-top:10px; font-size:12px; font-family:lato, sans-serif; color:#333333; letter-spacing:1px; text-align:left;}
+
+.vegetariskt {float:right; margin-right:120px; width:380px; height:150px;}
+.rightHeading {float:left; padding-left:6px; margin-top:10px; font-size:20px; font-family:lato, sans-serif; color:#333333;}
+#arrowRight {padding-right:8px; padding-left:0; color:#80b416;}
+.rightPara {float:left; width:370px; margin-left:4px; margin-top:10px; font-size:12px; font-family:lato, sans-serif; color:#333333; letter-spacing:1px; text-align:left;}
+
+
+
+/* Footer */
+footer {float:left; width:100%; height:auto;}
+
+/***** Footer 1 *****/
+.footer1 {float:left; width:100%; height:450; background:#f2f1ec; }
+.footer-info {text-align:center; width:1000px; height:450px;  margin:0 auto; position:relative;}
+
+.contact-medd {margin:30px; height:60px; font-size:25px; font-family:lato, sans-serif; color:#333333;}
+
+.footer-info ul li a {text-decoration:none;}
+a#siteiconlink:hover, a#siteiconlink:active, a.link:focus {text-decoration:underline; color:#e95f63;}
+a#srviceiconlink:hover, a#srviceiconlink:active {text-decoration:underline; color:#81b616;}
+a#twittericonlink:hover, a#twittericonlink:active {text-decoration:underline; color:#55acee;}
+a#fbiconlink:hover, a#fbiconlink:active {text-decoration:underline; color:#3b5998;}
+
+.contact-list {float:right; width:400px; height:300px; list-style:none; margin-top:25px; margin-right:30px; position:relative;}
+.contact-list li {float:left; padding:10px 0; display:list-item;}
+.contact-list img {float:left;  padding:0 10px 0 0;}
+
+.contact-list a {float:left; font-weight:bold;}
+#siteiconlink {color:#e95f63;  font-family:lato, sans-serif; text-decoration:none;}
+#srviceiconlink {color:#81b616;  font-family:lato, sans-serif; text-decoration:none;}
+#twittericonlink {color:#55acee;  font-family:lato, sans-serif; text-decoration:none;}
+#fbiconlink {color:#3b5998;  font-family:lato, sans-serif; text-decoration:none;}
+
+.contact-list p {float:left; direction:ltr; text-align:left; margin-left:61px; }
+#sitepara {position:absolute; top:30px; font-family:lato, sans-serif; font-size:14px;}
+#servicepara {position:absolute; top:100px; font-family:lato, sans-serif; font-size:14px;}
+#twittpara {position:absolute; top:170px; font-family:lato, sans-serif; font-size:14px;}
+#fbpara {position:absolute; top:240px; font-family:lato, sans-serif; font-size:14px;}
+
+#contactno {text-decoration:none; color:#333333;}
+a.contactno:hover, a.contactno:active {color:#000000;} 
+
+.medarbetareimg {float:left; bottom:0; width:400px; margin-left:30px; margin-top: 80px; position:absolute; left:0;}
+
+/***** Footer 2 *****/
+.footer2 {float:left; width:100%; height:100px; background:#e5e4e1; }
+.upper-bottom-links {width:1000px; height:100px; margin:0 auto;}
+
+/***** Footer 3*****/
+.footer3 {float:left; width:100%; height:100px; background:#ffffff; }
+.content-footer {width:1000px; height:100px; margin:0 auto; position:relative;}
+.copyright-footer {width:150px; position:absolute; left:200px; top:45px; font-family:lato, sans-serif; color:#b3b3b3; text-align:center;}
+.bottom-links {width:500px; position:absolute; top:45px; left:350px;} 
+.bottom-links ul li {display:inline-block; text-align:center; font-family:lato, sans-serif; left:0; padding:0 10px 0 0;}
+
+.content-footer ul li a {color:#333333; text-decoration:none;}
+a.omlankning:hover, a.omlankning:active, a.link:focus {text-decoration:underline; color:#333333;} 
+a.omcookies:hover, a.omcookies:active {text-decoration:underline; color:#333333;} 
+a.omwebbplatsen:hover, a.webbplatsen:active {text-decoration:underline; color:#333333;} 
+a.allmannavillkor:hover, a.allmannavillkor:active {text-decoration:underline; color:#333333;} 
+
+
+
+/***** Search Result *****/
+#product_wrapper {float:left; width:100%; height:auto;}
+#product_content {width:1000px; height:auto; margin:0 auto; position:relative; padding:20px;}
+.sort {padding:5px; font-family:lato, sans-serif; color:#333333;}
+.pages {padding:5px; font-family:lato, sans-serif; color:#333333;}
+.list_results {padding-top:10px; padding-bottom:10px;}
+.pagination_controls {padding:10px;}
+
+div#prod_list {position:relative; border-top:1px solid #f3f3f2; border-bottom:1px solid #f3f3f2; padding:10px;}
+div#prod_list:hover {background:#f3f3f2;}
+#prod_list a {color:#333333; text-decoration:none; height:20px;}
+img.prod_img {width:40px; height:80px;}
+p.namn_row {position:absolute; left:60px; bottom:70px; font-family:lato, sans-serif; font-weight:bold;}
+p.namn2_row {position:absolute; left:60px; bottom:50px; font-family:lato, sans-serif;}
+p.ursprunglandnamn_row {position:absolute; right:20px; bottom:50px; font-family:lato, sans-serif;}
+p.prisinklmoms_row {position:absolute; right:20px; bottom:70px; font-family:lato, sans-serif; font-weight:bold;}
+a.cart {position:absolute; right:20px; bottom:30px; }
+#icon_cart:hover {color:#336642;}
+#icon_cart {color:#4b9560;}
+a.paginations {padding:10px; text-decoration:none; color:#333333; font-weight:bolder; }
+a.paginations:hover, a.paginations:active, a.link:focus {text-decoration:underline; color:#4b9560; } 
+
+
+
+/***** Prdouct Description *****/
+#box_wrapper {float:left; width:100%; height:auto;}
+#box_content {width:1000px; height:auto; margin:0 auto; position:relative; padding:50px 50px 50px 50px;}
+#row {width:1000px; height:600px; margin:0 auto; position:relative;}
+#top_header {width:700px; height:auto; padding:10px; position:absolute; right:0;}
+
+	#link_result {color:#4b9560; padding-right:10px;}
+	a#link_result:hover, a#link_result:active, a#link:focus {text-decoration:underline; color:#000000;}
+	#link_search {color:#4b9560; padding-left:10px;}
+	a#link_search:hover, a#link_search:active {text-decoration:underline; color:#000000;}
+	.box_img {position:absolute; width:225px; height:450px; top:50px;}
+	.varugrupp {position:absolute; width:700px; height:auto; background:#f0f0f0; padding:10px; text-transform:uppercase; font-weight:bold; font-family:lato, sans-serif; right:0; top:50px;}
+	.box_namn {position:absolute; font-size:30px; font-family:lato, sans-serif; left:280px; top:100px;}
+	.land {position:absolute; font-size:20px; font-family:lato, sans-serif; left:280px; top:160px; padding-bottom:10px;}
+	.pris {position:absolute; font-size:30px; font-family:lato, sans-serif; right:0; top:100px;}
+	.packaging {position:absolute; font-weight:normal; font-size:15px; right:0; top:140px;}
+	.ravarorbeskrivning {position:absolute; width:720px; height:auto; font-weight:normal; font-size:20px; border-top:solid 1px #f3f3f2; border-bottom:solid 1px #f3f3f2; padding-top:20px; padding-bottom:20px; font-family:lato, sans-serif; right:0; top:200px;}
+	.saljstart_header {position:absolute; font-family:lato, sans-serif; left:280px; top:300px;}
+	.saljstart {position:absolute; font-family:lato, sans-serif; left:280px; top:330px;}
+	.alkoholhalt_header {position:absolute; font-family:lato, sans-serif; left:280px; top:380px;}
+	.alkoholhalt {position:absolute; font-family:lato, sans-serif; left:280px; top:410px;}
+	.producent_header {position:absolute; font-family:lato, sans-serif; left:280px; top:460px;}
+	.producent {position:absolute; font-family:lato, sans-serif; left:280px; top:490px;}
+	.leverantor_header {position:absolute; font-family:lato, sans-serif; left:280px; top:540px;}
+	.leverantor {position:absolute; font-family:lato, sans-serif; left:280px; top:570px;}
+	.box_btn_cart {position:absolute; font-family:lato, sans-serif; right:0; top:300px; width:300px; height:40px; background:#4b9560; border:solid 1px #4b9560; border-radius:2px;}
+	#icon_shopping {color: #ffffff; font-size:20px;}
+
+
+
+
+/****** Register *****/
+.reg_wrapper {float:left; width:100%; height:500px; }
+.reg_content {width:1000px; height:500px; margin:0 auto; position:relative; background:#ffffff;}
+.reg_form {width:400px; height:325px; position:absolute; left:300px; top:50px; padding:10px; border:1px solid #f6f6f6;}
+.reg_header {background:#dcecf5; font-size:15px; text-align:center; padding:10px; font-family:lato, sans-serif;}
+
+.namn {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.reg_name {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+.epost_reg {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.reg_epost_inpt {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+.password_reg {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.reg_pass1 {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+.rePass {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.reg_pass2 {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+
+.reg_actions {position:absolute; clear:left; bottom:10px; font-family:lato, sans-serif;}
+.action_bttn_reg {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+.action_primary_bttn_reg {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+
+
+
+/***** Forgot Pass *****/
+.forgotPass_wrapper {float:left; width:100%; height:400px;}
+.forgotPass_content {width:1000px; height:300px;  margin:0 auto; position:relative; background:#ffffff;}
+.forgotPass_form {width:400px; height:190px; position:absolute; left:300px; top:50px; padding:10px; border:1px solid #f6f6f6;}
+.forgotPass_header {background:#dcecf5; font-size:15px; text-align:center; padding:10px; font-family:lato, sans-serif;}
+
+.epost_forgotPass {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.forgot_epost_inpt {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+
+.forgotPass_actions {position:absolute; clear:left; bottom:10px; font-family:lato, sans-serif;}
+.action_bttn_forgotPass {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+.action_primary_bttn_forgotPass {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+
+
+
+/***** Logga in *****/
+.login_wrapper {float:left; width:100%; height:400px;}
+.login_content {width:1000px; height:400px; margin:0 auto; position:relative; background:#ffffff;}
+.login_form {width:400px; height:260px; position:absolute; left:300px; top:50px; padding:10px; border:1px solid #f6f6f6;}
+.login_header {background:#dcecf5; font-size:15px; text-align:center; padding:10px; font-family:lato, sans-serif;}
+
+.epost {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.login_epost {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+.password {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.login_password {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+
+.options {position:absolute; padding:10px; font-family:lato, sans-serif;}
+.options a {text-decoration:none; color:gray; padding-right:5px; font-size:13px; font-family:lato, sans-serif;}
+a.forgotPass_link:hover, a.forgotPass_link:active, a.link:focus {text-decoration:underline;}
+a.reg_link:hover, a.reg_link:active {text-decoration:underline;}
+
+.actions {position:absolute; clear:left; bottom:10px; font-family:lato, sans-serif;}
+.action_button {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+.action_primary_button {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+
+
+
+/***** Change Pass *****/
+.changePass_wrapper {float:left; width:100%; height:400px;}
+.changePass_content {width:1000px; height:300px; margin:0 auto; position:relative; background:#ffffff;}
+.changePass_form {width:400px; height:225px; position:absolute; left:300px; top:50px; padding:10px; border:1px solid #f6f6f6;}
+.changePass_header {background:#dcecf5; font-size:15px; text-align:center; padding:10px; font-family:lato, sans-serif;}
+
+.password_changePass {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.changePass_pass1 {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+.change_rePass {font-weight:bold; font-size:15px; padding:5px 5px 5px 10px; font-family:lato, sans-serif;}
+.changePass_pass2 {height:20px; width:385px; padding:5px 5px 5px 10px; background:#f6f6f6; border:1px; font-family:lato, sans-serif;}
+
+.changePass_actions {position:absolute; clear:left; bottom:10px; font-family:lato, sans-serif;}
+.action_bttn_changePass {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+.action_primary_bttn_changePass {width:200px; height:35px; border:1px; background:#f2f2f2; font-family:lato, sans-serif;}
+
+
+
+/***** Cart *****/
+#cartWrapper {float:left; width:100%; height:auto;}
+#cartContent {width:1000px; height:auto; margin:0 auto; position:relative; background:#ffffff;}
+
+.dryckelista-heading {float:left; width:1000px; padding-top:40px; padding-bottom:30px; font-family:lato, sans-serif; font-size:40px;}
+.dryckelista-img {clear:left; }
+.dryckelista-span-text {position:absolute; left:260px; top:120px; font-size:18px; font-family:lato, sans-serif;}
+.dryckelista-div-text {width:710px; height:20px; position:absolute; left:260px; top:160px; padding:15px; text-transform:uppercase; font-family:lato, sans-serif; background:#f0f0f0; font-weight:bold; border-radius:3px;}
+.fa-arrow-down {margin-left:230px; color:#80b416;}
+.dryckelista-ul {list-style-type:none;}
+.dryckelista-li-prnt {position:absolute; width:70px; height:20px; border:1px solid #e5e4e1; border-top:none; border-right:none; border-bottom:none; right:105px; top:0; padding:15px;}
+.dryckelista-li-bttn {position:absolute; width:70px; height:20px; border:1px solid #e5e4e1; border-top:none; border-right:none; border-bottom:none; right:0; top:0; padding:15px; }
+.fa-print {margin-left:25px; color:gray;}
+.fa-share-square-o {margin-left:20px; color:gray;}
+
+.dryckelista-table {position:relative; width:740px; height:100px; left:260px; top:-180px; padding:25px; border-bottom:1px solid #e2e2e2;}
+.dryckelista-inpt {width:20px; height:20px; border:1px solid #333; border-radius:3px;}
+.dryckelista-img-td {position:absolute; left:80px; top:5px;}
+.dryckelista-namn {position:absolute; left:150px; top:15px; font-size:20px; font-family:lato, sans-serif;}
+.dryckelista-namn2 {position:absolute; left:150px; top:35px; font-size:20px; font-family:lato, sans-serif;}
+.dryckelista-pris {position:absolute; left:550px; top:15px; font-size:20px; font-family:lato, sans-serif;}
+.fa-trash-o {width:20px; height:20px; position:absolute; left:3px; top:3px; font-family:lato, sans-serif; color:#a1a1a1; border:none;}
+.dryckelista-trash-bttn {width:30px; height:30px; position:absolute; left:675px; top:15px; border:none; background:none;}
+
+.dryckelista-total {width:710px; height:20px; font-size:20px; position:absolute; left:260px; bottom:130px; padding:15px; font-family:lato, sans-serif; background:#f0f0f0; border-radius:3px;}
+.dryckelista-total-bold {position:absolute; right:15px;}
+.dryckelista-rensa-bestall {width:740px; height:50px; position:absolute; left:260px; bottom:45px; padding-top:15px; padding-bottom:15px; }
+.rensa-bttn {width:360px; height:50px; position:absolute; left:0;  font-size:15px; border:1px solid #e3e3e1; border-radius:3px; font-family:lato, sans-serif;}
+.bestall-bttn {width:360px; height:50px; position:absolute; right:0; font-size:15px; border:1px solid #e3e3e1; color:#fff; background:#4b9560; border-radius:3px; font-family:lato, sans-serif;}
+
+
+
+
+
+
+
+
+
+
+

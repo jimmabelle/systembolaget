@@ -1,0 +1,48 @@
+/***** Search *****/
+#productdata_wrapper {width:100%; height:auto; background:##d9d9d9;}
+#productdata_content {width:auto; height:auto; padding-left:100px; padding-top:50px; position:relative; margin:0 auto;}
+#productdata_paginations {width:auto; height:auto; padding-left:100px; font-size:20px; }
+
+.productdata_form {padding-left:100px; padding-top:50px;}
+#productdata_inpt {width:400px; height:44px; border:1px solid #a86767; padding-left:10px; font-family:lato, sans-serif; font-style:italic; font-size:20px;}
+#productdata_btn {width:50px; height:42px; border:1px solid #a86767; color:#a86767;}
+
+
+/**** Product Data *****/
+.table_wrapper {width:100%; height:auto; }
+.table_content {width:auto; height:auto; padding:100px; position:relative; margin:0 auto;}
+
+#table_admin {border-collapse:collapse; font-family:lato, sans-serif; width:800px; height:auto; color:#333333;}
+#table_row_th {height:30px; background:#a86767; color:#ffffff;}
+#table_row_th th {height:30px; font-size:18px; font-family:bold;}
+#table_row_th th, td {padding:10px; text-align:center;}
+#table_row_td a {text-decoration:none; color:#333333;}
+
+
+/***** Edit & Delete *****/
+a#td_edit:hover, a#td_edit:active, a#link:focus {text-decoration:underline; color:#333333;}
+a#td_delete:hover, a#td_delete:active {text-decoration:underline; color:#333333;}
+
+
+/****** edit *****/
+#edit_wrapper {width:100%; height:auto;}
+#edit_content {width:auto; height:auto; padding:50px; text-align:center;}
+#edit_tb {border-collapse:collapse; border-style:none;}
+
+.edit_artikel, .edit_varnummer, .edit_varnummer, .edit_namn, .edit_namn2, .edit_prisinklmoms, .edit_pant, .edit_volymiml, .edit_prisperliter, .edit_saljstart, .edit_slutlev, .edit_varugrupp, .edit_forpackning, .edit_forslutning, .edit_ursprung, .edit_ursprunglandnamn, .edit_producent, .edit_leverantor, .edit_argang, .edit_provadargang, .edit_alkoholhalt, .edit_sortiment, .edit_ekologisk, .edit_koscher, .edit_ravarorbeskrivning {width:600px; height:10px; text-align:right; font-family:lato, sans-serif; padding-right:50px; font-weight:bold;}
+.edit_row {width:1400px;}
+.edit_row input{width:800px; border:solid 1px #f2f2f2; height:20px; border-radius:5px; padding-left:50px; font-family:lato, sans-serif;}
+.edit_row input:hover {border:solid 1px #a86767;}
+.edit_inpt_submit {width:300px; height:30px; border:solid 1px #f2f2f2; border-radius:5px; background:#a86767; color:#ffffff;}
+.edit_inpt_submit:hover, .edit_inpt_submit:active {text-decoration:underline;}
+
+
+/***** ul.editphp *****/
+.edit_ul {list-style-type:none; margin:0; padding-top:10px; padding-bottom:10px; }
+.edit_ul li a {display: block; width: 125px; border:1px solid #f2f2f2; padding:5px; color:#a86767; text-decoration:none; border-radius:5px;}
+a.fa-file-text:hover, a.fa-table:hover {text-decoration:underline; color:#a86767;}
+.outsubmit {width:137px; padding:5px; background:none; border:1px solid #f2f2f2; color:#a86767; text-align:left; border-radius:5px;}
+.outsubmit:hover {text-decoration:underline; color:#a86767;}
+
+
+
